@@ -9,6 +9,11 @@
     font-family: 'SWCC-Medium' !important;
 }
 
+/* Change the Padding of the Sub Label In the Side Bar */
+span[name*='SubLbl'] {
+    padding-right: 4ex;
+}
+
 
 /* FORM BOUNDARIES STYLING */
 
@@ -147,7 +152,7 @@ div[name="Navbar"] {
 .cardItem p {
     width: 100%;
     text-align: center !important;
-
+    text-wrap: balance;
 }
 
 .labelVal {
