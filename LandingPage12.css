@@ -22,6 +22,22 @@ body {
     background: #EBF3FD !important;
 }
 
+.Complete{
+    background:#007af2;
+}
+
+.Active{
+    background:#0066CC;
+}
+
+.New{
+    background:#026bd3; 
+}
+
+.totalcounter{
+    color:white !important;
+}
+
 .runtime-form {
     position: absolute !important;
     top: 100px;
@@ -255,7 +271,10 @@ div[name="InvestigationButtonsView"] {
     box-sizing: border-box !important;
     font-weight: bold !important;
     font-size: 35px !important;
+    color: white !important;
 }
+
+p#completeCounter {}
 
 .counterCard {
     display: flex !important;
@@ -264,7 +283,6 @@ div[name="InvestigationButtonsView"] {
     padding-right: 10px !important;
     padding-left: 10px !important;
     box-sizing: border-box !important;
-    background: white !important;
     border-radius: 10px !important;
     width: 251px !important;
     height: 105px !important;
@@ -273,7 +291,7 @@ div[name="InvestigationButtonsView"] {
 }
 
 .counterLabel {
-    color: #505050 !important;
+    color: white !important;
     font-size: 18px !important;
 }
 
