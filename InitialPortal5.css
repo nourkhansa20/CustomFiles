@@ -10,8 +10,10 @@
 }
 
 .infoIconContainer {
+    display: flex;
+    height: 4.2ex;
     width: 100%;
-    height: 5ex;
+    justify-content: flex-end;
 }
 
 .cardItem {
