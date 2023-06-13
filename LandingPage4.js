@@ -251,27 +251,23 @@ function renderLegalServicesCards() {
   <div class="cardItem">
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/4463470.jpg" class='titleImage'>
       <p class="cardTitle translatable">إجراء ضد مؤسسة</p>
-      <a class='goToCategoryButton translatable'>إضغط هنا</a>
   </div>
   <div class="cardItem">
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/InformationTech.jpg" class='titleImage'>
       <p class="cardTitle translatable">إجراء مع المؤسسة</p>
       <a class='goToCategoryButton translatable'>إضغط هنا</a>
   </div>
-  <div class="cardItem">
+  <div class="cardItem" id='createInvestigationButton'>
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/ArchitectureIllustration.jpg" class='titleImage'>
       <p class="cardTitle translatable">إجراء تحقيق</p>
-      <a class='goToCategoryButton translatable' id='createInvestigationButton'>إضغط هنا</a>
   </div>
   <div class="cardItem">
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/process_optimization_4.jpg" class='titleImage'>
       <p class="cardTitle translatable">إجراء تضارب المصالح</p>
-      <a class='goToCategoryButton translatable'>إضغط هنا</a>
   </div>
   <div class="cardItem">
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/researchIllustration.png" class='titleImage'>
       <p class="cardTitle translatable">إجراءات دراسة العقود</p>
-      <a class='goToCategoryButton translatable'>إضغط هنا</a>
   </div>
   `)
 }
