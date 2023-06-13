@@ -243,7 +243,7 @@ function createReqCounters() {
   <div class="New counterCard">
       <p id="newCounter" class="counterCircle">${newNo}</p>
       <p class="counterLabel translatable">الجديدة</p>
-      <p class="totalcounter">${newNo} من Com${totalcounter}</p>
+      <p class="totalcounter">${newNo} من ${totalcounter}</p>
   </div>
   `
     $("#reqCounter").html("")
