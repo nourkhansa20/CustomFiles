@@ -299,7 +299,6 @@ div[name="InvestigationButtonsView"] {
     background: #ffffff !important;
     display: flex !important;
     flex-direction: column !important;
-    justify-content: space-between !important;
     place-items: center !important;
     padding-bottom: 25px !important;
     box-sizing: border-box !important;
@@ -336,7 +335,7 @@ div[name="InvestigationButtonsView"] {
 
 .cardItem .titleImage {
     width: 75% !important;
-    height: 145px !important;
+    height: 108px !important;
     border-radius: 25px !important;
     max-width: 350px !important;
 }
