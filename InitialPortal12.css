@@ -12,6 +12,7 @@
 /* Change the Padding of the Sub Label In the Side Bar */
 span[name*='SubLbl'] {
     padding-right: 4ex;
+    padding-left: 4ex;
 }
 
 
