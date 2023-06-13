@@ -58,7 +58,7 @@ $(document).ready(function () {
         { "English": "Completed", "Arabic": "المكتملة", "French": "Terminé" },
         { "English": "Created By", "Arabic": "انشا من قبل", "French": "Créé Par" },
         { "English": "Investigation Status", "Arabic": "حالة التحقيق", "French": "Statut Enquête" },
-        { "English": "Subject", "Arabic": "الموضوع", "French": "Sujet" }
+        { "English": "Subject", "Arabic": "الموضوع", "French": "Sujet" },
         { "English": "of", "Arabic": "من", "French": "Sujet" }
     ];
 
