@@ -361,6 +361,7 @@ p#completeCounter {}
     height: 108px !important;
     border-radius: 25px !important;
     max-width: 350px !important;
+    cursor: pointer;
 }
 
 .cardTitle {
