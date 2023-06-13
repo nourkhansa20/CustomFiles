@@ -18,7 +18,7 @@ $(document).ready(function () {
         $('#modal').css('display', 'none')
     })
 
-    
+
     $(document).on("click", "#addService", function () {
         $('.runtime-content').css('opacity', '1')
         $('#modal').css('display', 'none')
@@ -30,45 +30,44 @@ $(document).ready(function () {
         let serviceName = $("#serviceName").val()
         let serviceLink = $("#serviceLink").val()
 
-      
-        renderNewService(serviceName , serviceLink) 
+
+        renderNewService(serviceName, serviceLink)
 
         $("#serviceName").val("")
         $("#serviceLink").val("")
     })
 
 
-         // Translating the Page On Load
+    // Translating the Page On Load
 
-  setTimeout(function () {
-    let LSLang = localStorage.getItem('selected_language')
+    setTimeout(function () {
+        let LSLang = localStorage.getItem('selected_language')
 
-    switch (LSLang) {
-      case 'en-US':
-        $("a.dd-option label.dd-option-text:contains('Arabic')").click();
-        $("a.dd-option label.dd-option-text:contains('English')").click();
-        break
-      case 'ar-SA':
-        $("a.dd-option label.dd-option-text:contains('Arabic')").click();
-        $("a.dd-option label.dd-option-text:contains('Arabic')").click();
-        break
-      case 'fr-FR':
-        $("a.dd-option label.dd-option-text:contains('Arabic')").click();
-        $("a.dd-option label.dd-option-text:contains('Français')").click();
-        break
-      default:
-        $("a.dd-option label.dd-option-text:contains('Arabic')").click();
-    
-        break
-    }
-  }, 2000)
+        switch (LSLang) {
+            case 'en-US':
+                $("a.dd-option label.dd-option-text:contains('Arabic')").click();
+                $("a.dd-option label.dd-option-text:contains('English')").click();
+                break
+            case 'ar-SA':
+                $("a.dd-option label.dd-option-text:contains('Arabic')").click();
+                $("a.dd-option label.dd-option-text:contains('Arabic')").click();
+                break
+            case 'fr-FR':
+                $("a.dd-option label.dd-option-text:contains('Arabic')").click();
+                $("a.dd-option label.dd-option-text:contains('Français')").click();
+                break
+            default:
+                $("a.dd-option label.dd-option-text:contains('Arabic')").click();
+
+                break
+        }
+    }, 2000)
 
 })
 
 function renderNewService(serviceName, serviceLink) {
     $('#card-wrapper').append(`
-    <div class="cardItem" onclick="goTo("${serviceLink}")">
-        <img src=""/>
+    <div class="cardItem">
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/4463470.jpg" class='titleImage'>
         <p class="cardTitle">${serviceName}</p>
         <img src='https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/employeeIconBlue.jpg' class='employeeIcon'>
@@ -76,13 +75,10 @@ function renderNewService(serviceName, serviceLink) {
         <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
         <p class='empCount'>20</p>
         </div>
+        <a class='goToCategoryButton browseDepartmentDetails' href="${serviceLink}" > تعرّف على القسم</a>
     </div>
     `)
 
-}
-
-function goTo(href){
-    window.open(href)
 }
 
 
@@ -100,11 +96,15 @@ function changeLanguage() {
 
 }
 
+function goTo(href){
+    window.open(href)
+}
+
 function renderCards() {
 
     $('#card-wrapper').html("")
     $('#card-wrapper').append(`
-<div class="cardItem">
+<div class="cardItem" onclick="goTo('https://srv-k2five/Designer/Runtime/Form/LandingPage/')">
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/4463470.jpg" class='titleImage'>
         <p class="cardTitle" id='LegalAffairs'>الشؤون القانونية</p>
         <img src='https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/employeeIconBlue.jpg' class='employeeIcon'>
@@ -112,7 +112,6 @@ function renderCards() {
         <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
         <p class='empCount'>36</p>
         </div>
-        <a class='goToCategoryButton browseDepartmentDetails' href="https://srv-k2five/Designer/Runtime/Form/LandingPage/" > تعرّف على القسم</a>
     </div>
     <div class="cardItem">
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/InformationTech.jpg" class='titleImage'>
@@ -122,7 +121,6 @@ function renderCards() {
         <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
         <p class='empCount'>24</p>
         </div>
-        <a class='goToCategoryButton browseDepartmentDetails'> تعرّف على القسم</a>
     </div>
     <div class="cardItem">
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/ArchitectureIllustration.jpg" class='titleImage'>
@@ -132,7 +130,6 @@ function renderCards() {
         <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
         <p class='empCount'>130</p>
         </div>
-        <a class='goToCategoryButton browseDepartmentDetails'> تعرّف على القسم</a>
     </div>
     <div class="cardItem">
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/process_optimization_4.jpg" class='titleImage'>
@@ -142,7 +139,6 @@ function renderCards() {
         <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
         <p class='empCount'>42</p>
         </div>
-        <a class='goToCategoryButton browseDepartmentDetails'> تعرّف على القسم</a>
     </div>
     <div class="cardItem">
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/researchIllustration.png" class='titleImage'>
@@ -152,7 +148,6 @@ function renderCards() {
         <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
         <p class='empCount'>26</p>
         </div>
-        <a class='goToCategoryButton browseDepartmentDetails'> تعرّف على القسم</a>
     </div>
     <div class="cardItem">
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/maintenanceIllustration.png" class='titleImage'>
@@ -162,7 +157,6 @@ function renderCards() {
         <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
         <p class='empCount'>67</p>
         </div>
-        <a class='goToCategoryButton browseDepartmentDetails'> تعرّف على القسم</a>
     </div>
     `)
 }
@@ -190,10 +184,10 @@ function translateToEnglish() {
     $("#Maintenance").text("Maintenance")
     $('#LegalAffairs').text("Legal Affairs")
     $('.cardTitle').css('transform', 'scale(0.8)')
-    $("[name='Sidebar']").css('right' , '')
-    $("[name='Sidebar']").css('left' , '0')
-    $(".form").css('right' , '')
-    $(".form").css('left' , '32%')
+    $("[name='Sidebar']").css('right', '')
+    $("[name='Sidebar']").css('left', '0')
+    $(".form").css('right', '')
+    $(".form").css('left', '32%')
 }
 
 function translateToArabic() {
@@ -209,10 +203,10 @@ function translateToArabic() {
     $("#Maintenance").text("الصيانة")
     $('#LegalAffairs').text("الشؤون القانونية")
     $('.cardTitle').css('transform', 'scale(1.05)')
-    $("[name='Sidebar']").css('left' , '')
-    $("[name='Sidebar']").css('right' , '0')
-    $(".form").css('left' , '')
-    $(".form").css('right' , '20%')
+    $("[name='Sidebar']").css('left', '')
+    $("[name='Sidebar']").css('right', '0')
+    $(".form").css('left', '')
+    $(".form").css('right', '20%')
 }
 
 
