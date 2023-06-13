@@ -117,7 +117,7 @@ function renderInvestOptions() {
   </div>
   <div class="cardItem">
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/InformationTech.jpg" class='titleImage'>
-      <p class="cardTitle translatable">إجراء طلب تحقيق</p>
+      <p class="cardTitle translatable">إجراء تحقيق</p>
       <a class='goToCategoryButton translatable' href='https://srv-k2five/Runtime/Runtime/Form/Submit.Form/'>إضغط هنا</a>
   </div>
   <div class="cardItem">
