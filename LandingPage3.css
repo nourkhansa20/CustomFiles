@@ -153,6 +153,10 @@ div[name="Navbar"] {
     width: 100%;
     text-align: center !important;
     text-wrap: balance;
+    height: 4.9ex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .labelVal {
