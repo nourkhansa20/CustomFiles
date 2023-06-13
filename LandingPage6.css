@@ -329,18 +329,17 @@ div[name="InvestigationButtonsView"] {
 #InvestigationCards {
     width: 90% !important;
     display: grid !important;
-    grid-template-columns: repeat(4, 1fr) !important;
+    grid-template-columns: repeat(auto-fit,34ex);
     place-items: center !important;
     grid-row-gap: 30px !important;
     overflow-y: auto !important;
     direction: rtl;
     padding: 30px;
-    justify-content: end;
-    justify-items: start;
+    justify-content: center;
 }
 
 .cardItem .titleImage {
-    width: 75% !important;
+    width: 96.6% !important;
     height: 108px !important;
     border-radius: 25px !important;
     max-width: 350px !important;
