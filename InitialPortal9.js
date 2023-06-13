@@ -70,6 +70,11 @@ function renderNewService(serviceName, serviceLink) {
     <div class="cardItem">
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/4463470.jpg" class='titleImage'>
         <p class="cardTitle">${serviceName}</p>
+        <img src='https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/employeeIconBlue.jpg' class='employeeIcon'>
+        <div class='empNoWrap'>
+        <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
+        <p class='empCount'>20</p>
+        </div>
         <a class='goToCategoryButton browseDepartmentDetails' href="${serviceLink}" > تعرّف على القسم</a>
     </div>
     `)
@@ -106,11 +111,6 @@ function renderCards() {
     </div>
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/4463470.jpg" class='titleImage'>
         <p class="cardTitle" id='LegalAffairs'>الشؤون القانونية</p>
-        <img src='https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/employeeIconBlue.jpg' class='employeeIcon'>
-        <div class='empNoWrap'>
-        <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
-        <p class='empCount'>36</p>
-        </div>
     </div>
     <div class="cardItem">
     <div class="infoIconContainer">
@@ -119,11 +119,6 @@ function renderCards() {
     </div>
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/InformationTech.jpg" class='titleImage'>
         <p class="cardTitle" id='IT'>تكنولوجيا المعلومات</p>
-        <img src='https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/employeeIconBlue.jpg' class='employeeIcon'>
-        <div class='empNoWrap'>
-        <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
-        <p class='empCount'>24</p>
-        </div>
     </div>
     <div class="cardItem">
     <div class="infoIconContainer">
@@ -132,11 +127,6 @@ function renderCards() {
     </div>
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/ArchitectureIllustration.jpg" class='titleImage'>
         <p class="cardTitle" id='Architecture'>الهندسة</p>
-        <img src='https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/employeeIconBlue.jpg' class='employeeIcon'>
-        <div class='empNoWrap'>
-        <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
-        <p class='empCount'>130</p>
-        </div>
     </div>
     <div class="cardItem">
     <div class="infoIconContainer">
@@ -145,11 +135,6 @@ function renderCards() {
     </div>
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/process_optimization_4.jpg" class='titleImage'>
         <p class="cardTitle" id='Operations'>العمليات</p>
-        <img src='https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/employeeIconBlue.jpg' class='employeeIcon'>
-        <div class='empNoWrap'>
-        <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
-        <p class='empCount'>42</p>
-        </div>
     </div>
     <div class="cardItem">
     <div class="infoIconContainer">
@@ -158,11 +143,6 @@ function renderCards() {
     </div>
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/researchIllustration.png" class='titleImage'>
         <p class="cardTitle" id='Research'>الأبحاث</p>
-        <img src='https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/employeeIconBlue.jpg' class='employeeIcon'>
-       <div class='empNoWrap'>
-        <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
-        <p class='empCount'>26</p>
-        </div>
     </div>
     <div class="cardItem">
     <div class="infoIconContainer">
@@ -171,11 +151,6 @@ function renderCards() {
     </div>
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/maintenanceIllustration.png" class='titleImage'>
         <p class="cardTitle" id='Maintenance'>الصيانة</p>
-        <img src='https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/employeeIconBlue.jpg' class='employeeIcon'>
-        <div class='empNoWrap'>
-        <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
-        <p class='empCount'>67</p>
-        </div>
     </div>
     `)
 }
