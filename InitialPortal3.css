@@ -9,8 +9,13 @@
     font-family: 'SWCC-Medium'
 }
 
-.cardItem{
-    cursor:pointer;
+.infoIconContainer {
+    width: 100%;
+    height: 5ex;
+}
+
+.cardItem {
+    cursor: pointer;
 }
 
 div[name="Navbar"] {
@@ -20,14 +25,15 @@ div[name="Navbar"] {
     right: 0;
     z-index: 1;
 
-    
+
 }
+
 [name="TranslatorHeader"] {
 
-    position : fixed !important;
-    top : 0 ;
-    left :0  ;
-    z-index : 100 !important ;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 100 !important;
 }
 
 .employeeIcon {
@@ -42,7 +48,7 @@ body {
 .runtime-form {
     position: absolute !important;
     top: 50px;
-    left: 0 ;
+    left: 0;
     width: 90% !important;
 }
 
@@ -57,9 +63,9 @@ body {
 
 .form {
     background-color: #EBF3FD !important;
-    width : 70% !important ;
-    position : absolute !important ;
-    right : 20%;
+    width: 70% !important;
+    position: absolute !important;
+    right: 20%;
 }
 
 body {
@@ -94,9 +100,8 @@ body {
     place-items: center !important;
     grid-row-gap: 30px !important;
     overflow-y: auto !important;
-    direction: rtl ;
-    padding : 20px !important
-  
+    direction: rtl;
+    padding: 20px !important
 }
 
 #sectionBrowser {
@@ -105,13 +110,13 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
     place-items: center !important;
-    margin-right : 30px !important
+    margin-right: 30px !important
 }
 
 .cardItem {
     padding: 15px !important;
     width: 65% !important;
-    min-width : 350px !important ;
+    min-width: 350px !important;
     height: 380px !important;
     border-radius: 2.5ex !important;
     box-shadow: 0px 13px 25px #0000002B !important;
@@ -162,7 +167,7 @@ body {
     box-shadow: 0px 9px 17px #00000057 !important;
     text-decoration: none !important;
     transition: filter 0.2s ease;
-    margin-top : 10px !important
+    margin-top: 10px !important
 }
 
 .goToCategoryButton:hover {
@@ -177,7 +182,7 @@ body {
 .empNoWrap {
 
     display: flex !important;
-    flex-direction: row-reverse ;
+    flex-direction: row-reverse;
     justify-content: center;
     place-items: center;
     gap: 10px;
@@ -201,14 +206,14 @@ body {
 }
 
 .dd-container {
-    margin-right : 100px !important ;
-    margin-left : 100px !important ;
+    margin-right: 100px !important;
+    margin-left: 100px !important;
 }
 
 
-[name='SWCCImgLogo']{
+[name='SWCCImgLogo'] {
 
-    margin : 0px 25px !important ;
+    margin: 0px 25px !important;
 }
 
 
@@ -218,11 +223,11 @@ div[name="Sidebar"] {
     background-color: #0066cc !important;
     height: 100vh !important;
     position: fixed !important;
-    right: 0 ;
+    right: 0;
     width: 330px !important;
     top: 160px !important;
     z-index: 1 !important;
-   /* border-top-left-radius: 20px !important; */
+    /* border-top-left-radius: 20px !important; */
     box-shadow: 0px 0px 30px #0066CC80 !important;
 }
 
@@ -233,7 +238,7 @@ div[name="Sidebar"] * {
 
 div[name="Sidebar"] div {
     background-color: #0066cc !important;
- /*   border-top-left-radius: 20px !important; */
+    /*   border-top-left-radius: 20px !important; */
 }
 
 
@@ -242,105 +247,105 @@ div[name="Sidebar"] div {
 /* ----------------- MODAL STYLING ------------------- */
 
 [name='addIcon'] {
-    border-radius : 7px !important ;
+    border-radius: 7px !important;
 }
 
 
-        #modal {
-            display : none ;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            height: 350px;
-            width: 600px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 30px rgba(0, 102, 204, 0.5);
-            background-color: #fff;
-            padding: 10px;
-        }
+#modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 102, 204, 0.5);
+    background-color: #fff;
+    padding: 10px;
+}
 
-        #modalHeader {
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: flex-end;
-            align-items: center;
-            border-bottom: 1px solid gray;
-            padding: 10px;
-            box-sizing: border-box;
-            height: 15%;
-        }
+#modalHeader {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 15%;
+}
 
-        #closeModal:hover {
-            filter: brightness(80%);
-            cursor: pointer;
-        }
+#closeModal:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}
 
-        #closeModal {
-            height: 30px;
-            width: 30px;
-        }
+#closeModal {
+    height: 30px;
+    width: 30px;
+}
 
-        #modalBody {
-            display: flex;
-            flex-direction: row-reverse;
-            height: 85%;
-            display: flex;
-            align-items: center;
-        }
+#modalBody {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 85%;
+    display: flex;
+    align-items: center;
+}
 
-        #modalIllustration {
-            height: 230px;
-            width: 280px;
-            border-radius: 5px;
-            object-fit: cover;
-        }
+#modalIllustration {
+    height: 230px;
+    width: 280px;
+    border-radius: 5px;
+    object-fit: cover;
+}
 
-        #controlsDiv {
-            width: calc(100% - 260px);
-            height: 200px;
-            padding: 20px;
-            border-radius: 5px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
+#controlsDiv {
+    width: calc(100% - 260px);
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-        .modalLabel {
-            font-weight: bold !important;
-            margin-bottom: 3px;
-            margin-top: 5px;
-            text-align: right;
-            font-size : 18px !important;
-        }
+.modalLabel {
+    font-weight: bold !important;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    text-align: right;
+    font-size: 18px !important;
+}
 
-        .input {
-            height: 30px;
-            width: 100%;
-            border-radius: 5px;
-            border: 1px solid rgba(0, 0, 0, 0.2);
-            padding: 5px;
-            direction: rtl;
-            outline : none !important;
-        }
+.input {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    direction: rtl;
+    outline: none !important;
+}
 
-        #addService {
-            display: flex;
-            place-content: center;
-            align-items: center;
-            height: 40px;
-            width: 150px;
-            border-radius: 2.5ex;
-            border: none;
-            background-color: #0066cc;
-            color: #fff;
-            cursor: pointer;
-            align-self: center;
-            font-size : 18px ;
-            margin-top: 10px;
-            transition: filter 0.2s ease;
-        }
+#addService {
+    display: flex;
+    place-content: center;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    border-radius: 2.5ex;
+    border: none;
+    background-color: #0066cc;
+    color: #fff;
+    cursor: pointer;
+    align-self: center;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: filter 0.2s ease;
+}
 
-        #addService:hover {
-            filter: opacity(0.9);
-        }
+#addService:hover {
+    filter: opacity(0.9);
+}
