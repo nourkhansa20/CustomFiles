@@ -255,7 +255,6 @@ function renderLegalServicesCards() {
   <div class="cardItem">
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/InformationTech.jpg" class='titleImage'>
       <p class="cardTitle translatable">إجراء مع المؤسسة</p>
-      <a class='goToCategoryButton translatable'>إضغط هنا</a>
   </div>
   <div class="cardItem" id='createInvestigationButton'>
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/ArchitectureIllustration.jpg" class='titleImage'>
