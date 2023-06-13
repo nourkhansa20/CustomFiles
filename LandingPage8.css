@@ -297,6 +297,7 @@ div[name="InvestigationButtonsView"] {
 #legalservices-card-wrapper .cardItem {
     padding: 20px !important;
     height: 237px !important;
+    width: 34ex !important;
     border-radius: 2.5ex !important;
     box-shadow: 0px 13px 25px #0000002B !important;
     background: #ffffff !important;
