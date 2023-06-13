@@ -70,11 +70,6 @@ function renderNewService(serviceName, serviceLink) {
     <div class="cardItem">
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/4463470.jpg" class='titleImage'>
         <p class="cardTitle">${serviceName}</p>
-        <img src='https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/employeeIconBlue.jpg' class='employeeIcon'>
-        <div class='empNoWrap'>
-        <p class='empCountLabel' class='peopleInDepartment'>فردًا في القسم</p>
-        <p class='empCount'>20</p>
-        </div>
         <a class='goToCategoryButton browseDepartmentDetails' href="${serviceLink}" > تعرّف على القسم</a>
     </div>
     `)
