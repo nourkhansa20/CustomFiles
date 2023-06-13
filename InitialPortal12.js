@@ -195,7 +195,7 @@ function translateToArabic() {
     $('#Operations').text("العمليات")
     $('#Research').text("الأبحاث")
     $("#Maintenance").text("الصيانة")
-    $('#LegalAffairs').text("الشؤون القانونية")
+    $('#LegalAffairs').text("إدارة القضايا و التحقيقات")
     $('.cardTitle').css('transform', 'scale(1.05)')
     $("[name='Sidebar']").css('left', '')
     $("[name='Sidebar']").css('right', '0')
