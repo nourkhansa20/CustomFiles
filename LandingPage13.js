@@ -59,6 +59,7 @@ $(document).ready(function () {
         { "English": "Created By", "Arabic": "انشا من قبل", "French": "Créé Par" },
         { "English": "Investigation Status", "Arabic": "حالة التحقيق", "French": "Statut Enquête" },
         { "English": "Subject", "Arabic": "الموضوع", "French": "Sujet" }
+        { "English": "of", "Arabic": "من", "French": "Sujet" }
     ];
 
 
