@@ -20,6 +20,11 @@
     cursor: pointer;
 }
 
+span[name*="SubLbl"] {
+    padding-right: 4.2ex;
+    padding-left: 4.2ex;
+}
+
 div[name="Navbar"] {
     position: fixed !important;
     top: 46px;
