@@ -110,7 +110,7 @@ function renderCards() {
             class='infoIcon'>
     </div>
         <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/4463470.jpg" class='titleImage'>
-        <p class="cardTitle" id='LegalAffairs'>الشؤون القانونية</p>
+        <p class="cardTitle" id='LegalAffairs'>إدارة القضايا و التحقيقات</p>
     </div>
     <div class="cardItem">
     <div class="infoIconContainer">
