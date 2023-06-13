@@ -46,7 +46,7 @@ $(document).ready(function () {
     { "English": "Investigations Management", "Arabic": "إدارة القضايا و التحقيقات", "French": "Aff. Juridiques" },
     { "English": "Proceed Against Institution", "Arabic": "إجراء ضد مؤسسة", "French": "Procéder Contre Inst." },
     { "English": "Proceed With Institution", "Arabic": "إجراء مع المؤسسة", "French": "Procéder Avec Inst." },
-    { "English": "Request Investigation", "Arabic": "إجراء طلب تحقيق", "French": "Demander Enquête" },
+    { "English": "Request Investigation", "Arabic": "إجراء تحقيق", "French": "Demander Enquête" },
     { "English": "Conflict Of Interest Procedure", "Arabic": "إجراء تضارب المصالح", "French": "Procédure Conflit Intérêt" },
     { "English": "Contract Study Procedures", "Arabic": "إجراءات دراسة العقود", "French": "Procédures Étude Contrats" },
     { "English": "Click Here", "Arabic": "إضغط هنا", "French": "Cliquer" },
@@ -260,7 +260,7 @@ function renderLegalServicesCards() {
   </div>
   <div class="cardItem">
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/ArchitectureIllustration.jpg" class='titleImage'>
-      <p class="cardTitle translatable">إجراء طلب تحقيق</p>
+      <p class="cardTitle translatable">إجراء تحقيق</p>
       <a class='goToCategoryButton translatable' id='createInvestigationButton'>إضغط هنا</a>
   </div>
   <div class="cardItem">
