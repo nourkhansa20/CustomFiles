@@ -233,17 +233,17 @@ function createReqCounters() {
   <div class="Complete counterCard">
       <p id="completeCounter" class="counterCircle">${completedNo}</p>
       <p class="counterLabel translatable">المكتملة</p>
-      <p class="totalcounter">${totalcounter}/${completedNo}</p>
+      <p class="totalcounter">${completedNo} من ${totalcounter}</p>
   </div>
   <div class="Active counterCard">
       <p id="activeCounter" class="counterCircle">${activeNo}</p>
       <p class="counterLabel translatable">النشطة</p>
-      <p class="totalcounter">${totalcounter}/${activeNo}</p>
+      <p class="totalcounter">${activeNo} من ${totalcounter}</p>
   </div>
   <div class="New counterCard">
       <p id="newCounter" class="counterCircle">${newNo}</p>
       <p class="counterLabel translatable">الجديدة</p>
-      <p class="totalcounter">${totalcounter}/${newNo}</p>
+      <p class="totalcounter">${newNo} من Com${totalcounter}</p>
   </div>
   `
     $("#reqCounter").html("")
