@@ -110,23 +110,24 @@ function renderInvestOptions() {
 
   $('#InvestigationCards').html("")
   $('#InvestigationCards').append(`
-  <div class="cardItem">
+  <div class="cardItem" id='showAllInvestigations'>
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/4463470.jpg" class='titleImage'>
       <p class="cardTitle translatable">طلبات التحقيق</p>
-      <a class='goToCategoryButton translatable' id='showAllInvestigations'>إضغط هنا</a>
   </div>
-  <div class="cardItem">
+  <div class="cardItem" onclick="goTo('https://srv-k2five/Runtime/Runtime/Form/Submit.Form/')">
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/InformationTech.jpg" class='titleImage'>
       <p class="cardTitle translatable">إجراء تحقيق</p>
-      <a class='goToCategoryButton translatable' href='https://srv-k2five/Runtime/Runtime/Form/Submit.Form/'>إضغط هنا</a>
   </div>
-  <div class="cardItem">
+  <div class="cardItem"  onclick="goTo('https://srv-k2five/Runtime/Runtime/Form/InitialForm.Form/')">
       <img src="https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/ArchitectureIllustration.jpg" class='titleImage'>
       <p class="cardTitle translatable">تقديم شكوى</p>
-      <a class='goToCategoryButton translatable' href='https://srv-k2five/Runtime/Runtime/Form/InitialForm.Form/'>إضغط هنا</a>
   </div>
   
   `)
+}
+
+function goTo(href) {
+    window.open(href, "_self")
 }
 
 function renderInvestCards() {
