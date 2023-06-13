@@ -97,7 +97,7 @@ function changeLanguage() {
 }
 
 function goTo(href) {
-    window.open(href)
+    window.open(href, "_self")
 }
 
 function renderCards() {
